@@ -52,11 +52,11 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt TAB ESCAPE  &kp Q  &kp W      &kp E                  &kp R  &kp T                  &kp UP_ARROW     &kp Y      &kp U  &kp I         &kp O    &kp P               &mt PLUS MINUS
-&kp LSHIFT      &kp A  &kp S      &kp D                  &kp F  &kp G                  &kp DOWN_ARROW   &kp H      &kp J  &kp K         &kp L    &kp SEMI            &kp SQT
-&kp CAPS        &kp Z  &kp X      &kp C                  &kp V  &kp B                  &kp LEFT_ARROW   &kp N      &kp M  &kp COMMA     &kp DOT  &mt QUESTION SLASH  &kp KP_EQUAL
-                       &kp SPACE  &mt LGUI LEFT_CONTROL  &mo 1  &mt BACKSPACE SPACE    &kp RIGHT_ARROW  &kp ENTER  &mo 2  &mt RALT DEL
-                                                                                       &kp ENTER
+&mt TAB ESCAPE  &kp Q  &kp W      &kp E                      &kp R  &kp T                  &kp UP_ARROW     &kp Y      &kp U  &kp I         &kp O    &kp P               &mt PLUS MINUS
+&kp LSHIFT      &kp A  &kp S      &kp D                      &kp F  &kp G                  &kp DOWN_ARROW   &kp H      &kp J  &kp K         &kp L    &kp SEMI            &kp SQT
+&kp CAPS        &kp Z  &kp X      &kp C                      &kp V  &kp B                  &kp LEFT_ARROW   &kp N      &kp M  &kp COMMA     &kp DOT  &mt QUESTION SLASH  &kp KP_EQUAL
+                       &kp SPACE  &mt LEFT_CONTROL LEFT_GUI  &mo 1  &mt BACKSPACE SPACE    &kp RIGHT_ARROW  &kp ENTER  &mo 2  &mt RALT DEL
+                                                                                           &kp ENTER
             >;
 
             label = "QWERTY";
@@ -94,11 +94,11 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &kp LEFT_BRACKET        &trans  &kp RIGHT_BRACKET      &trans           &kp UP_ARROW     &trans           &trans           &trans
-&trans  &bt BT_SEL 3    &bt BT_SEL 4  &rgb_ug RGB_ON    &rgb_ug RGB_OFF    &kp LEFT_BRACE          &trans  &kp RIGHT_BRACE        &kp LEFT         &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans           &trans
-&trans  &out OUT_USB    &out OUT_BLE  &ext_power EP_ON  &ext_power EP_OFF  &kp LEFT_PARENTHESIS    &trans  &kp RIGHT_PARENTHESIS  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-                        &trans        &trans            &trans             &kp SPACE               &trans  &kp RET                &trans           &trans
-                                                                                                   &trans
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &kp UP_ARROW    &bt BT_SEL 3     &kp LEFT_BRACKET        &trans  &kp RIGHT_BRACKET      &trans           &trans           &trans            &rgb_ug RGB_ON     &rgb_ug RGB_OFF
+&bt BT_CLR_ALL  &bt BT_SEL 4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACE          &trans  &kp RIGHT_BRACE        &out OUT_USB     &out OUT_BLE     &ext_power EP_ON  &ext_power EP_OFF  &trans
+&trans          &trans        &trans          &trans          &trans           &kp LEFT_PARENTHESIS    &trans  &kp RIGHT_PARENTHESIS  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD   &rgb_ug RGB_BRI    &rgb_ug RGB_BRD
+                              &trans          &trans          &trans           &kp SPACE               &trans  &kp RET                &trans           &trans
+                                                                                                       &trans
             >;
         };
 
