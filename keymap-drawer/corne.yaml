@@ -47,7 +47,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOL
-  - $$mdi:backspace-reverse-outline$$
+  - A
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
   - {t: '`', s: '~'}
